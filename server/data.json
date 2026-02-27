@@ -1,0 +1,498 @@
+{
+  "navigation": {
+    "logo": "志成演示科技公司",
+    "links": [
+      {
+        "text": "案例展示",
+        "href": "#cases"
+      },
+      {
+        "text": "服务价格",
+        "href": "#pricing"
+      },
+      {
+        "text": "服务流程",
+        "href": "#process"
+      }
+    ],
+    "cta": {
+      "text": "立即咨询",
+      "href": "#contact"
+    },
+    "logoImage": "/uploads/file-1771921150549-436743751.png"
+  },
+  "hero": {
+    "visible": true,
+    "title": "志成演示团队",
+    "subtitle": "专业设计团队，为您打造卓越的演示体验！",
+    "backgroundType": "image",
+    "overlayOpacity": 0.2,
+    "ctaButtons": [
+      {
+        "text": "立即咨询",
+        "link": "#contact",
+        "primary": true,
+        "color": "#34ecf9",
+        "textColor": "#0b1838"
+      },
+      {
+        "text": "查看案例",
+        "link": "#cases",
+        "primary": false,
+        "color": "#2d2c3a",
+        "textColor": "#ffffff",
+        "variant": "secondary"
+      }
+    ],
+    "trustBadges": [
+      {
+        "text": "服务客户",
+        "number": "2000+",
+        "icon": ""
+      },
+      {
+        "text": "专业经验",
+        "number": "10年",
+        "icon": ""
+      },
+      {
+        "text": " 客户满意度",
+        "number": "99%",
+        "icon": ""
+      }
+    ],
+    "badgeLayout": "column",
+    "badgePosition": "center",
+    "coverImage": "/uploads/file-1771924877222-215216091.png",
+    "showSeparator": true,
+    "badgeStyle": {
+      "color": "#ffffff",
+      "fontWeight": "300"
+    },
+    "badgeNumberStyle": {
+      "color": "#4dfefb",
+      "fontWeight": "900"
+    }
+  },
+  "carousel": {
+    "visible": true,
+    "title": "精选案例展示",
+    "subtitle": "每一个作品都是精心打磨的艺术品",
+    "categories": [
+      {
+        "id": "business",
+        "name": "创业竞赛"
+      },
+      {
+        "id": "report",
+        "name": "工作汇报"
+      },
+      {
+        "id": "launch",
+        "name": "发布会"
+      }
+    ],
+    "images": [
+      {
+        "src": "/uploads/file-1771918667616-875059416.png",
+        "alt": "高端PPT案例展示 1",
+        "title": "中华之美",
+        "categoryId": "business"
+      },
+      {
+        "src": "/uploads/file-1771918707555-335554701.png",
+        "alt": "高端PPT案例展示 2",
+        "title": "政策解读",
+        "categoryId": "report"
+      },
+      {
+        "src": "/uploads/file-1771918737137-115872938.png",
+        "alt": "高端PPT案例展示 3",
+        "title": "医疗科技",
+        "categoryId": "launch"
+      },
+      {
+        "src": "/uploads/file-1771918807091-436163471.png",
+        "alt": "新图片",
+        "title": "高校创赛",
+        "categoryId": "business",
+        "isPrivate": true
+      },
+      {
+        "src": "/uploads/file-1771926050040-257751200.png",
+        "alt": "案例图片",
+        "title": "企业推广",
+        "categoryId": "report",
+        "isPrivate": true
+      },
+      {
+        "src": "/uploads/file-1771926085439-67884970.png",
+        "alt": "案例图片",
+        "title": "家具国际",
+        "categoryId": "launch",
+        "isPrivate": true
+      },
+      {
+        "src": "/uploads/file-1771926222965-375632905.png",
+        "alt": "案例图片",
+        "title": "科技创新",
+        "categoryId": "launch",
+        "isPrivate": true
+      }
+    ],
+    "autoplayInterval": 3000,
+    "showIndicators": true,
+    "showArrows": true
+  },
+  "pricing": {
+    "visible": true,
+    "title": "服务价格体系",
+    "subtitle": "透明合理的报价，满足不同层次的定制需求",
+    "plans": [
+      {
+        "name": "基础版",
+        "price": "¥50/页",
+        "description": "适合内部汇报、简单演示"
+      },
+      {
+        "name": "标准版",
+        "price": "¥100/页",
+        "description": "适合对外发布、一般会议"
+      },
+      {
+        "name": "高级版",
+        "price": "¥200/页",
+        "description": "适合大型发布会、路演",
+        "highlight": true
+      },
+      {
+        "name": "私人定制",
+        "price": "¥500/页",
+        "description": "顶级设计师一对一服务"
+      }
+    ],
+    "table": [
+      {
+        "feature": "设计风格",
+        "basic": "现有模板",
+        "standard": "定制风格",
+        "premium": "创意设计",
+        "vip": "顶级创意"
+      },
+      {
+        "feature": "排版美化",
+        "basic": "基础排版",
+        "standard": "精细排版",
+        "premium": "高级排版",
+        "vip": "极致排版"
+      },
+      {
+        "feature": "图表制作",
+        "basic": "基础图表",
+        "standard": "美化图表",
+        "premium": "创意图表",
+        "vip": "数据可视化"
+      },
+      {
+        "feature": "动画效果",
+        "basic": "无",
+        "standard": "简单切换",
+        "premium": "页面动画",
+        "vip": "高级动效"
+      },
+      {
+        "feature": "修改次数",
+        "basic": "1次",
+        "standard": "3次",
+        "premium": "5次",
+        "vip": "不限次数"
+      },
+      {
+        "feature": "交付格式",
+        "basic": "PPTX",
+        "standard": "PPTX/PDF",
+        "premium": "全套源文件",
+        "vip": "全套+字体包"
+      }
+    ],
+    "notes": [
+      {
+        "icon": "Clock",
+        "title": "加急服务",
+        "description": "如需24小时内交付，需加收50%加急费。"
+      },
+      {
+        "icon": "FileText",
+        "title": "文案策划",
+        "description": "如需提供文案梳理与策划服务，费用另计。"
+      }
+    ]
+  },
+  "process": {
+    "visible": true,
+    "title": "服务流程",
+    "subtitle": "标准化的服务流程，确保高品质交付",
+    "steps": [
+      {
+        "number": 1,
+        "icon": "MessageSquare",
+        "title": "需求沟通",
+        "description": "了解您的演示场景、受众及具体需求",
+        "items": [
+          "明确风格偏好",
+          "确定页数规模",
+          "商定交付时间"
+        ],
+        "titleStyle": {
+          "fontWeight": "bold"
+        }
+      },
+      {
+        "number": 2,
+        "icon": "FileText",
+        "title": "资料梳理",
+        "description": "整理文案内容，构建演示逻辑框架",
+        "items": [
+          "文案逻辑梳理",
+          "框架结构搭建",
+          "确定关键页面"
+        ]
+      },
+      {
+        "number": 3,
+        "icon": "Palette",
+        "title": "风格提案",
+        "description": "设计初稿样张，确定整体视觉风格",
+        "items": [
+          "首页风格设计",
+          "内页版式设计",
+          "配色方案确认"
+        ]
+      },
+      {
+        "number": 4,
+        "icon": "Layout",
+        "title": "全案制作",
+        "description": "展开全部页面的设计制作与排版",
+        "items": [
+          "内容可视化",
+          "图表设计美化",
+          "动画效果制作"
+        ]
+      },
+      {
+        "number": 5,
+        "icon": "CheckCircle",
+        "title": "审核修改",
+        "description": "提交初稿，根据反馈进行细节调整",
+        "items": [
+          "细节完善",
+          "内容校对",
+          "效果优化"
+        ]
+      },
+      {
+        "number": 6,
+        "icon": "Send",
+        "title": "定稿交付",
+        "description": "确认最终效果，交付全套源文件",
+        "items": [
+          "PPT源文件",
+          "PDF预览版",
+          "使用字体包"
+        ]
+      }
+    ]
+  },
+  "enterprise": {
+    "visible": true,
+    "title": "志成集团",
+    "subtitle": "以专业铸就品质，以创新引领未来",
+    "gradientStart": "#1e293b",
+    "gradientEnd": "#0f172a",
+    "content": "志成演示成立于 2020，是国内演示解决方案领域的创新实践者，始终专注于高端 PPT 定制与AI 演示赋能培训。为互联网科技、金融投资、生物医药、智能制造等行业头部企业及政府机构，持续提供专业 PPT 定制服务，助力数百场行业峰会、新品发布与战略发布会的精彩呈现，累计完成超 300 场企业内训与公开培训。\n\n\n集团致力于 “用 AI 重构演示表达”，以AI 驱动的演示思维把控全流程：从内容策略构建、信息可视化设计，到 AI 辅助脚本生成、智能动画编排，再到多模态演示交付，每一个环节都深度融合 AI 技术，帮助客户打造更具说服力、更具未来感的演示体验，为客户的品牌传播与商业决策高效赋能。",
+    "mapImage": "/uploads/file-1771921981879-406011310.png"
+  },
+  "team": {
+    "visible": true,
+    "title": "核心团队",
+    "subtitle": "汇聚行业精英，打造顶尖设计力量",
+    "members": [
+      {
+        "name": "熊王",
+        "role": "CEO",
+        "image": "/uploads/file-1771922654038-110332816.png",
+        "endorsement": "微软全球最有价值专家（MVP）\n微软国际认证培训师（MCT）\n微软创新教育家培训师（MIE-MT）"
+      },
+      {
+        "name": "黄品皓",
+        "role": "COO",
+        "image": "/uploads/file-1771922752543-886034560.png",
+        "endorsement": "高级政工师、副教授\n金山办公最有价值专家（KVP）\n金山WPS国际认证委员会特聘专家\n教育部中成协高级企业培训师（CAEA）"
+      },
+      {
+        "name": "张家豪",
+        "role": "CDO",
+        "image": "/uploads/file-1771922969904-745709330.png",
+        "endorsement": "精通A金山办公最有价值专家（KVP）\n国际培训中心 ( ITCILO ) 认证\n百度智能云生成式AI资深认证工程E/C4D，视觉特效专家"
+      }
+    ]
+  },
+  "partners": {
+    "visible": true,
+    "title": "合作伙伴",
+    "speed": 20,
+    "items": [
+      {
+        "name": "阿里巴巴"
+      },
+      {
+        "name": "腾讯"
+      },
+      {
+        "name": "字节跳动"
+      },
+      {
+        "name": "华为"
+      },
+      {
+        "name": "京东"
+      },
+      {
+        "name": "美团"
+      },
+      {
+        "name": "百度"
+      },
+      {
+        "name": "网易"
+      },
+      {
+        "name": "中国烟草"
+      },
+      {
+        "name": "清华大学"
+      },
+      {
+        "name": "CCTV"
+      },
+      {
+        "name": "新华网"
+      },
+      {
+        "name": "人民日报"
+      },
+      {
+        "name": "腾讯科技"
+      },
+      {
+        "name": "百度云"
+      },
+      {
+        "name": "字节跳动"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 志成科技定制服务. All rights reserved.",
+    "links": [
+      {
+        "text": "关于我们",
+        "href": "#"
+      },
+      {
+        "text": "服务条款",
+        "href": "#"
+      },
+      {
+        "text": "隐私政策",
+        "href": "#"
+      }
+    ],
+    "contact": {
+      "email": "673328151@qq.com",
+      "phone": "17662933370",
+      "address": "山东省临沂市兰山区红旗路209号"
+    },
+    "qrCode": {
+      "visible": true,
+      "image": "/uploads/file-1771921284027-108357599.png",
+      "label": "扫码咨询业务",
+      "align": "center"
+    }
+  },
+  "accessControl": {
+    "codes": [
+      {
+        "code": "vip888",
+        "name": "尊享VIP",
+        "permissions": {
+          "canViewPricing": true,
+          "canViewPrivateCases": true
+        }
+      },
+      {
+        "code": "6666",
+        "name": "普通访客",
+        "permissions": {
+          "canViewPricing": true,
+          "canViewPrivateCases": false
+        }
+      },
+      {
+        "code": "8888",
+        "name": "预览用户",
+        "permissions": {
+          "canViewPricing": false,
+          "canViewPrivateCases": false
+        }
+      },
+      {
+        "code": "1111",
+        "name": "合作伙伴",
+        "permissions": {
+          "canViewPricing": true,
+          "canViewPrivateCases": true
+        }
+      }
+    ]
+  },
+  "theme": {
+    "colors": {
+      "primary": "#06B6D4",
+      "secondary": "#0891B2",
+      "accent": "#F43F5E",
+      "background": "#020617",
+      "surface": "#0F172A",
+      "text": "#F1F5F9",
+      "textSecondary": "#94A3B8",
+      "textHeading": "#FFFFFF",
+      "textMuted": "#64748B",
+      "textInverse": "#FFFFFF"
+    },
+    "fonts": {
+      "heading": "Inter, sans-serif",
+      "body": "Inter, sans-serif",
+      "headingSize": "1rem",
+      "headingWeight": "700",
+      "bodySize": "1rem",
+      "bodyWeight": "400"
+    },
+    "borderRadius": {
+      "sm": "0.25rem",
+      "md": "0.5rem",
+      "lg": "1rem",
+      "xl": "1.5rem"
+    }
+  },
+  "permissions": {
+    "guest": {
+      "canViewPricing": true,
+      "canViewCases": false
+    },
+    "vip": {
+      "canViewPricing": false,
+      "canViewCases": false
+    }
+  }
+}
